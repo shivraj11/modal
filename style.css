@@ -1,0 +1,78 @@
+:root { 
+  font-size: 16px; 
+}
+button:hover{
+ background-color:  blue;
+  cursor: pointer;
+}
+
+.button{
+  width : 80px;
+height:40px;
+position: center;
+background-color: red;
+border-style: solid;
+border-color: green;
+}
+
+.container{
+  display: flex;
+  height: 50vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  display:flex;
+  flex-direction: column;
+height: 30%;
+width: 40%;  
+border: 1px solid red;
+justify-content: center;
+align-items: center;  
+}
+
+.box{
+  outline:100vw outset #808080; 
+}
+
+p{
+  font-size: 2vw;
+padding: 1px 5px 10px 5px;
+ }
+
+.btt{
+  align-self:  flex-end;
+     padding: 0 15px 0 0;
+}
+
+@media only screen and (max-width: 700px) {
+ 
+.box{
+  display:flex;
+  flex-direction: column;
+height: 90px;
+width: 250px;  
+border: 1px solid red;
+justify-content: center;
+}
+
+p{
+  font-size: 1rem;
+padding: .5px 1px .5px 1px;
+ }
+
+.button{
+  width : 60px;
+height:25px;
+background-color: red;
+border-style: solid;
+border-color: green;
+}
+
+.btt{
+  align-self:  flex-end;
+     padding: 0 6px 6px 0;
+}
+
+}
